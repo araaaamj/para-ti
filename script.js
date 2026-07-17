@@ -25,3 +25,17 @@ document.getElementById("enterButton").addEventListener("click",()=>{
     alert("Aquí aparecerá la siguiente parte de la historia ❤️");
 
 });
+function abrirCarta(){
+
+let sobre=document.querySelector(".sobre");
+let carta=document.getElementById("carta");
+
+sobre.classList.add("abierto");
+
+setTimeout(()=>{
+
+carta.classList.add("visible");
+
+},1200);
+
+}
